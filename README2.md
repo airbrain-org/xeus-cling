@@ -10,9 +10,9 @@ docker pull gm5binder/binder-prod-quantstack-2dxeus-2dcling-2e3041:72a5f09789bbc
 # Running the QuantStack image
 
 ```
-docker ps
+docker images
 
-# Note the container ID of the newly download image from the 'docker pull' command.
+# Note the container ID of the newly downloaded image from the 'docker pull' command.
 
 winpty docker run -it -p 8888:8888 {container ID}
 
